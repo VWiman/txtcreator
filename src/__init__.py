@@ -1,6 +1,7 @@
 from src.config import PROJECT_ROOT, DATA_DIR
 from src.main import run
 from src.utils import log
+from src.processing import createtxt
 
 # Package metadata
 
@@ -13,6 +14,8 @@ __all__ = [
     'run',
     # Utils
     'log',
+    # Processing
+    'createtxt',
     # Paths
     'PROJECT_ROOT',
     'DATA_DIR'
