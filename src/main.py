@@ -1,8 +1,9 @@
 from src import PROJECT_ROOT
+from src.utils import log
 
 
 def run():
-    print(PROJECT_ROOT)
+    log(PROJECT_ROOT)
     return
 
 
