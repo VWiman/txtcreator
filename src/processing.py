@@ -8,5 +8,3 @@ def createtxt():
         filename = str(i)[:-4]
         f = open(f'dataset/{filename}.txt', "x")
         f.write(filename)
-        print(filename)
-    print(filenames)
