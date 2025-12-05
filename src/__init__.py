@@ -1,4 +1,4 @@
-from src.config import PROJECT_ROOT, DATA_DIR
+from src.config import PROJECT_ROOT, DATA_DIR, LOG_TEMPLATE
 from src.main import run
 from src.utils import log
 from src.processing import createtxt
@@ -18,5 +18,7 @@ __all__ = [
     'createtxt',
     # Paths
     'PROJECT_ROOT',
-    'DATA_DIR'
-]
+    'DATA_DIR',
+    # Templates
+    'LOG_TEMPLATE',
+    ]

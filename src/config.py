@@ -1,5 +1,8 @@
 from pathlib import Path
+from datetime import datetime
 
-PACKAGE_DIR = Path(__file__).parent  # Package Directory
-PROJECT_ROOT = PACKAGE_DIR.parent  # Project Root
-DATA_DIR = PROJECT_ROOT / 'dataset'  # Dataset Directory
+NOW = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+PACKAGE_DIR = Path(__file__).parent
+PROJECT_ROOT = PACKAGE_DIR.parent
+DATA_DIR = PROJECT_ROOT / 'dataset'
+LOG_TEMPLATE = f'[LOG - {NOW}]'
